@@ -1,3 +1,4 @@
 baseurl: /index
+permalink: pretty
 plugins:
   - jekyll-redirect-from
