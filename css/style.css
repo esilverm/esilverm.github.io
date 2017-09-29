@@ -1,11 +1,7 @@
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #FFFFFF;
-  padding: 30px;
+  background-color: #293f50;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px;
@@ -14,12 +10,15 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
-#header {
-  background-color: #021726;
+
+header {
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 h1 {
   font-size: 28px;
-  color: white;
+  color: #FFFFFF;
 }
 h2 {
   font-size: 24px;
