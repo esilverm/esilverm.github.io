@@ -1,2 +1,0 @@
-ErrorDocument 404 /not-found.html
-ErrorDocument 403 /forbidden.html
