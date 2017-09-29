@@ -14,9 +14,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
-h1 { 
+#header {
+  background-color: #021726;
+}
+h1 {
   font-size: 28px;
-  color: black; 
+  color: whites;
 }
 h2 {
   font-size: 24px;
