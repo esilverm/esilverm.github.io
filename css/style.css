@@ -1,14 +1,13 @@
 .name {
-  text-align: center;
+  text-align: left;
   font-family: 'Open Sans', sans-serif;
   margin: 30px;
   padding-bottom: 7px;
   border-bottom: 1px solid black;
+  display: inline-block;
 }
 /* font-family: 'Lato', sans-serif; */
-.front-div {
-  text-align: center;
-  margin-top: 30px;
-  height: 50px;
-  text-decoration: none;
+.nav-links {
+  float: right;
+  margin: 50px;
 }
