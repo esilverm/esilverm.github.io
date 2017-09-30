@@ -22,9 +22,11 @@ nav ul li {
   display: inline-block;
   font-size: 60%;
   margin-right: 0;
-  text-decoration: none;
 }
 
+nav ul li a {
+  text-decoration: none;
+}
 .head {
   border-bottom: 1px solid black;
 }
