@@ -3,32 +3,13 @@
   font-family: 'Open Sans', sans-serif;
   margin: 30px;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   padding-bottom: 7px;
   display: inline-block;
 }
 /* font-family: 'Lato', sans-serif; */
-nav {
-   height: 70px;
-   line-height: 70px;
-   display: inline-block !important;
-}
 
- nav ul {
-    list-style: none;
-    width: 100%;
-    text-align:right
- }
-
-nav ul li {
-  display: inline-block;
-  font-size: 60%;
-  margin-right: 0;
-}
-
-nav ul li a {
-  text-decoration: none !important;
-}
 .navb {
   border-bottom: 1px solid black;
+  width:
 }
