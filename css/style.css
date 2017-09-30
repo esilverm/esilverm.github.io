@@ -2,14 +2,21 @@
   margin: 30px;
   padding-bottom: 7px;
   display: inline-block;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 .name a {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: black !important;
   text-decoration: none !important;
+}
+.name a:hover {
+  letter-spacing: 6px;
 }
 /* font-family: 'Lato', sans-serif; */
 
