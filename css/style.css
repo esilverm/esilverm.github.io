@@ -7,6 +7,8 @@
 }
 /* font-family: 'Lato', sans-serif; */
 .front-div {
+  border: 1px solid #007bff;
+  border-radius: 30px;
   text-align: center;
   margin-top: 30px;
   height: 50px;
