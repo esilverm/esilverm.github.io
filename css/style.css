@@ -5,3 +5,10 @@
   padding-bottom: 7px;
   border-bottom: 1px solid black;
 }
+a {
+  text-decoration: none;
+}
+.front-links div {
+  margin-top: 30px;
+  height: 200;
+}
