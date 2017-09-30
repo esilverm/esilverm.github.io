@@ -7,9 +7,21 @@
   display: inline-block;
 }
 /* font-family: 'Lato', sans-serif; */
-.nav-links {
-  float: right;
-  margin: 50px;
+nav {
+   height: 70px;
+   line-height: 70px;
+}
+
+ nav ul {
+    list-style: none;
+    width: 100%;
+    text-align:right
+ }
+
+nav ul li {
+  display: inline-block;
+  font-size: 60%;
+  margin-right: 0;
 }
 
 .head {
