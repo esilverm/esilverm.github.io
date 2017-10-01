@@ -9,7 +9,7 @@
   font-weight: 300;
   letter-spacing: 4px;
   color: black !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 /* font-family: 'Lato', sans-serif; */
 
