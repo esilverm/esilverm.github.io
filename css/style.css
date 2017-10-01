@@ -9,14 +9,6 @@
   font-weight: 300;
   letter-spacing: 4px;
   color: black !important;
-  text-decoration: none !important;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
-.name a:hover {
-  letter-spacing: 6px;
 }
 /* font-family: 'Lato', sans-serif; */
 
