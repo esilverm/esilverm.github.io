@@ -24,6 +24,9 @@
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
+.gen-link:hover:after {
+  transform: scaleX(1);
+}
 
 .footer {
   position: absolute;
