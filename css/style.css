@@ -29,17 +29,6 @@
   transform: scaleX(1);
 }
 
-.front-hero {
-  background-image: url('../assets/img/background.jpg');
-  width: 100%;
-  height: auto;
-  background-size: cover;
-}
-
-.jumbotron {
-  height: 350px;
-  background-image: url();
-}
 .footer {
   position: absolute;
   bottom: 0;
