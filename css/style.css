@@ -32,7 +32,6 @@
 .front-hero {
   background-image: url('../assets/img/background.jpg');
   width: 100%;
-  filter: blur(10px) opacity(25%);
   height: auto;
   background-size: cover;
 }
