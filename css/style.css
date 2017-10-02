@@ -25,9 +25,14 @@
   transition: transform 250ms ease-in-out;
 }
 .gen-link:hover:after {
+  border-bottom: solid 3px #0056b3
   transform: scaleX(1);
 }
 
+.jumbotron {
+  height: 350px;
+  background-image: url();
+}
 .footer {
   position: absolute;
   bottom: 0;
