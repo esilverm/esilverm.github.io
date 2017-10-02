@@ -25,7 +25,7 @@
   transition: transform 250ms ease-in-out;
 }
 .gen-link:hover:after {
-  border-bottom: solid 3px #0056b3
+  border-bottom-color: #0056b3
   transform: scaleX(1);
 }
 
