@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My Website I Guess
 
 This is my planning space for my website. I haven't worked on something like this in a while and I realize I probably should.
@@ -24,6 +23,5 @@ Because I clearly need to work on this because I have been putting if off. I als
 
 
 ## How I would like to structure this
-=======
-# esilverm.github.io
->>>>>>> 89bf3ade45d573679438acffe5e60d125312952a
+
+Actually we should be using gatsbyjs for this site
