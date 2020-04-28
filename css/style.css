@@ -1,0 +1,75 @@
+@import "normalize.css";
+@import "fonts.css";
+
+:root {
+  --dark: #252323;
+  --gray: #70798c;
+  --white: #f5f1ed;
+  --tan: #dad2bc;
+  --dark-tan: #a99985;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style Navigation */
+nav {
+  width: 100%;
+  min-height: 50px;
+  height: 8vh;
+  max-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+#title {
+  font-family: "Aileron Black", Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-left: 2vw;
+  letter-spacing: 0.2rem;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  right: 3vw;
+}
+
+#navbar li.item {
+  font-family: "Aileron Light", Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+#navbar li.item::after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 1px;
+  background-color: var(--dark);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  z-index: 3;
+}
+
+#navbar li.item:hover::after {
+  transform: scaleX(1);
+}
+
+#navbar li.item.active::after {
+  transform: scaleX(1);
+}

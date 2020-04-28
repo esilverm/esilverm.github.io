@@ -1,0 +1,82 @@
+@import "./style.css"; /* import global styles */
+
+header {
+  background-color: var(--white);
+  position: relative;
+  height: 60vh;
+  min-height: 480px;
+  z-index: 1;
+  margin-bottom: 5%;
+}
+
+header:after,
+section:after {
+  background: inherit;
+  bottom: -25%;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+}
+
+section:before {
+  background: inherit;
+  top: 0;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+}
+
+#intro {
+  font-family: "Aileron Light", Helvetica, sans-serif;
+  color: var(--dark);
+  font-size: 1.5rem;
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 10%;
+  line-height: 1.9rem;
+}
+
+#intro .important {
+  font-family: "Aileron Bold", Helvetica, sans-serif;
+}
+
+/* project section */
+section {
+  position: relative;
+  height: 80vh;
+  min-height: 480px;
+  z-index: 1;
+  margin-bottom: 20vh;
+}
+
+#projects {
+  background-color: var(--tan);
+}
+
+#project-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.proj {
+  width: 40%;
+  height: 200px;
+  margin: 5%;
+  border: 1px solid black;
+  border-radius: 30px;
+}
