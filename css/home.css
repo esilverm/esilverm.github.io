@@ -1,5 +1,9 @@
 @import "./style.css"; /* import global styles */
 
+body {
+  background-color: var(--tan);
+}
+
 header {
   background-color: var(--white);
   position: relative;
@@ -54,6 +58,12 @@ section:before {
 }
 
 /* project section */
+#projects h2 {
+  font-family: "Aileron Bold", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
 section {
   position: relative;
   height: 80vh;
@@ -64,19 +74,94 @@ section {
 
 #projects {
   background-color: var(--tan);
+  height: auto;
 }
 
 #project-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   width: 80%;
   margin: 0 auto;
 }
 
 .proj {
   width: 40%;
-  height: 200px;
-  margin: 5%;
+  min-width: 500px;
+  height: 250px;
+  margin: 30px;
   border: 1px solid black;
   border-radius: 30px;
+}
+
+.proj a,
+.proj a:link,
+.proj a:visited {
+  text-decoration: none;
+  position: relative;
+  color: var(--dark);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.proj h3 {
+  font-family: "Aileron Light", Helvetica, sans-serif;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  position: relative;
+  top: 80%;
+  padding-top: 13px;
+  display: block;
+  height: 20%;
+  border-radius: 0 0 30px 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+  background-color: var(--gray);
+  position: relative;
+  height: 120px;
+  z-index: 1;
+}
+
+footer::before {
+  background: inherit;
+  top: 0;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(2deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+}
+
+footer h4 {
+  color: var(--white);
+  text-align: center;
+  font-family: "Aileron Thin", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  /* display: inline-block;
+  width: max-content;
+  padding-right: 150px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--white);
+  position: absolute; */
+  position: relative;
+  top: 40%;
+}
+
+.proj:nth-child(1) {
+  background-image: url("../assets/images/bobcat-search.png");
+  background-size: cover;
+  background-position: top;
+}
+.proj:nth-child(2) {
+  background-image: url("../assets/images/bobcat-transit.png");
+  background-size: cover;
+  background-position: center;
 }
