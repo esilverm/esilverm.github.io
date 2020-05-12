@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evan Silverman</title>
-    <meta name="author" content="Evan Silverman">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i|Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/7e447834ce.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/home.css" />
   </head>
   <body>
-    <div class="container-fluid navb">
-      <div class="row align-items-center">
-        <div class=".col-">
-          <h1 class="name"><a href="/">Evan Silverman</a></h1>
+    <header>
+      <nav>
+        <div id="title">
+          <a href="/">Evan Silverman</a>
         </div>
-        <div class="col">
-          <ul class="nav justify-content-end">
-            <li class="nav-item"><a class="nav-link gen-link" href="about">About</a></li>
-            <li class="nav-item"><a class="nav-link gen-link" href="education">Education</a></li>
-            <li class="nav-item"><a class="nav-link gen-link" href="projects">Projects</a></li>
-          </ul>
+        <ul id="navbar">
+          <li class="item active"><a href="/">Portfolio</a></li>
+          <li class="item"><a href="about">About</a></li>
+          <li class="item"><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="intro">
+        Hi! I'm <span class="important">Evan</span>! I'm a
+        <span class="important">Full Stack Developer</span> studying
+        <span class="important">Computer Science</span> at
+        <span class="important">New York Univeristy</span>. I am currently
+        <span class="important">Looking for an Internship</span>
+      </div>
+    </header>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list">
+        <div class="proj">
+          <a href="project/bobcat-search"><h3>Bobcat Search</h3></a>
         </div>
+        <div class="proj">
+          <a href="project/bobcat-transit"><h3>Bobcat Transit</h3></a>
+        </div>
+        <!-- <div class="proj">
+          <a href="project/dotw-portfolio"
+            ><h3>Drawing on the Web Portfolio</h3></a
+          >
+        </div>
+        <div class="proj"><h3>Name</h3></div>
+        <div class="proj"><h3>Name</h3></div>
+        <div class="proj"><h3>Name</h3></div> -->
       </div>
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy;2018 Evan Silverman&nbsp;&nbsp;&nbsp;</span>
-        <a href="https://github.com/esilverm" target="_blank"><i class="fa fa-github fa-2" aria-hidden="true"></i></a>
-        <a href="mailto:evanalecs@aol.com"><i class="fa fa-envelope fa-2" aria-hidden="true"></i></a>
-      </div>
+    </section>
+    <!-- <section id="education">
+      <h2>Education</h2>
+    </section> -->
+    <footer>
+      <h4>&copy;2020 Evan Silverman</h4>
     </footer>
   </body>
 </html>

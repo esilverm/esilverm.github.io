@@ -1,0 +1,182 @@
+@import "./style.css"; /* import global styles */
+
+header {
+  background-color: var(--white);
+  position: relative;
+  height: auto;
+  /* min-height: 480px; */
+  z-index: 1;
+}
+
+footer {
+  background-color: var(--gray);
+  position: relative;
+  height: 80px;
+  z-index: 1;
+}
+
+section {
+  position: relative;
+  height: auto;
+  min-height: 770px;
+  z-index: 1;
+
+  background-color: var(--tan);
+}
+
+footer h4 {
+  color: var(--white);
+  text-align: center;
+  font-family: "Aileron Thin", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  /* display: inline-block;
+  width: max-content;
+  padding-right: 150px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--white);
+  position: absolute; */
+  position: relative;
+  top: 40%;
+}
+
+#intro {
+  font-family: "Aileron Light", Helvetica, sans-serif;
+  color: var(--dark);
+  font-size: 1.5rem;
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 10%;
+  line-height: 1.9rem;
+}
+
+/* Terminal CSS */
+#drawing {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 50vw;
+  padding: 20px;
+  perspective: 500px;
+}
+
+#code {
+  /*border: 1px solid black;*/
+  position: relative;
+  width: 80%;
+  height: 70vh;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: #ccc;
+  font-family: "Office Code Pro Medium", "Monaco", "Menlo", "Ubuntu Mono",
+    "Consolas", "source-code-pro", monospace;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: #fafafa;
+}
+
+#console {
+  position: absolute;
+  top: 15px;
+  padding: 40px;
+  width: 100%;
+  height: calc(100% - 15px);
+  border-radius: 0 0 5px 5px;
+  background-color: #383737;
+  overflow: auto;
+}
+
+#buttons {
+  left: 5px;
+  width: 46px;
+  height: 15px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.button:nth-child(1) {
+  background-color: rgb(237, 107, 96);
+}
+
+.button:nth-child(2) {
+  background-color: rgb(246, 191, 80);
+}
+
+.button:nth-child(3) {
+  background-color: rgb(101, 204, 88);
+}
+
+.command {
+  position: relative;
+  /*margin-bottom: 3em;*/
+}
+
+.command::before {
+  content: "> ";
+}
+
+.command:last-child::after {
+  vertical-align: top;
+  font-size: inherit;
+  content: "";
+  display: inline-block;
+  margin-left: 3px;
+  width: 0.7em;
+  height: 1rem;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #fafafa;
+  }
+  50% {
+    background-color: #383737;
+  }
+  100% {
+    background-color: #fafafa;
+  }
+}
+
+.answer {
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+.string {
+  color: #f4f7d9;
+}
+
+.answer::before {
+  content: "=>";
+  color: #cccccc;
+  margin: 0 0.5rem 0 1rem;
+}
+
+#about-text {
+  font-family: "Aileron Light", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  display: inline-block;
+  width: 35%;
+  position: relative;
+  top: 60px;
+  left: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  #drawing {
+    display: none;
+  }
+
+  /* other styles */
+}
